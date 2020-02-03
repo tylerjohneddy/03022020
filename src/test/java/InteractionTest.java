@@ -15,6 +15,11 @@ public class InteractionTest {
 		Interaction interaction = new Interaction();
 		assertEquals("Is trash", interaction.insult());
 	}
+	@Test
+	public void helloTest() {
+		Interaction interaction = new Interaction();
+		assertEquals("hello", interaction.hello());
+	}
 
 
 }

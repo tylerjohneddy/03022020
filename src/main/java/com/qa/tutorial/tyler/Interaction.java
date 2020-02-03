@@ -15,6 +15,9 @@ public class Interaction {
 	public String insult() {
 		return "Is trash";
 	}
+	public String hello() {
+		return "hello";
+	}
 
 
 }
